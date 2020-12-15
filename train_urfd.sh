@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python train.py --temporal-lr 0.0001 --spatial-lr 0.000001 --temporal-weight 0.1 --spatial-weight 0.9 --workers 2 --epochs 50 --batch-size 56 --gpu-ids 0 --checkname vgg16 --eval-interval 1 --dataset urfdfusion
